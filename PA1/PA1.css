@@ -1,0 +1,17 @@
+h1{
+    color: #ff0000;
+    font: bold;
+}
+h3{
+    color: #0000ff;
+    font: bold, italic;
+}
+h6{
+    font: italic;
+}
+ol{
+    background-color: beige;
+}
+ul{
+    background-color: beige;
+}

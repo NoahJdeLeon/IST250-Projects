@@ -1,0 +1,10 @@
+﻿body
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left:20px;
+}
+.teal {
+    background-color:mediumaquamarine;
+    border-block:double;
+}
+.pad20 {padding:20px;}

@@ -1,0 +1,43 @@
+h1{
+    color: #ff0000;
+    font: bold;
+    font-family: 'Roboto Mono', monospace;
+    border:2px solid turquoise;
+    box-shadow: 5px 5px rgb(197, 236, 236);
+}
+h3{
+    color: #0000ff;
+    font: bold, italic;
+    font-family: 'Roboto Mono', monospace;
+    border:1px solid black;
+    box-shadow: 5px 5px rgb(197, 236, 236);
+}
+h6{
+    font: italic;
+    font-family: 'Roboto Mono', monospace;
+    border:1px solid black;
+    box-shadow: 5px 5px rgb(197, 236, 236);
+}
+ol{
+    background-color: beige;
+    border:1px solid black;
+    box-shadow: 5px 5px rgb(197, 236, 236);
+}
+ul{
+    background-color: beige;
+    border:1px solid black;
+    box-shadow: 5px 5px rgb(197, 236, 236);
+}
+body{
+    background-color: rgb(224, 255, 255);
+}
+pre{
+    font-family: 'Times New Roman', Times, serif;
+    border:1px solid black;
+    box-shadow: 5px 5px rgb(197, 236, 236);
+}
+#preface{
+    color: red;
+    border:1px solid black;
+    box-shadow: 5px 5px rgb(197, 236, 236);
+}

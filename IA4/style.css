@@ -1,0 +1,203 @@
+body{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-family: Helvetica;
+    margin-bottom: 10%;
+}
+footer{
+    background-color: rgb(32, 32, 64);
+    color: gray;
+    font-size: small;
+    position: fixed;
+    margin-top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+a:hover{
+    color: red;
+}
+th, td{
+    border: 1px solid white;
+    padding: 5px;
+}
+#element:hover{
+    background-color: rgb(32, 32, 64);
+    color: white;
+}
+#element button{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+#element div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(29, 29, 29);
+}
+.active{
+    background-color: rgb(32, 32, 64);
+}
+.content{
+    padding: 0 18px;
+    max-height: 0;
+    overflow: scroll;
+    transition: max-height 0.1s ease-out;
+    background-color: rgb(29, 29, 29);
+}
+.content img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.content p{
+    width: 45%;
+    height: 90%;
+    text-align: left;
+    font-size: large;
+}
+@media screen and (min-width: 1025px) {
+    h1{
+        color: green;
+    }
+    table{
+        border: 1px solid white;
+        width: 100%;
+        background-color: rgb(29, 29, 29);
+        border-collapse: collapse;
+    }
+    #links{
+        background-color: rgb(29, 29, 29);
+        height: 28px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    #flexbox{
+        background-color: rgb(29, 29, 29);
+        color: white;
+        width: 100%;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: hidden;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 15%;
+        text-align: center;
+    }
+    h1{
+        color: red;
+    }
+    table{
+        border: 1px solid white;
+        width: 90%;
+        background-color: rgb(29, 29, 29);
+        border-collapse: collapse;
+    }
+    #links{
+        background-color: rgb(29, 29, 29);
+        height: 28px;
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    #flexbox{
+        background-color: rgb(29, 29, 29);
+        color: white;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: hidden;
+        justify-content: space-evenly;
+    }
+    #section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 480px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: x-small;
+        text-align: center;
+    }
+    h1{
+        color: blue;
+    }
+    table{
+        border: 1px solid white;
+        width: 80%;
+        background-color: rgb(29, 29, 29);
+        border-collapse: collapse;
+    }
+    #links{
+        background-color: rgb(29, 29, 29);
+        height: 28px;
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    #flexbox{
+        background-color: rgb(29, 29, 29);
+        color: white;
+        width: 80%;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: hidden;
+        justify-content: space-evenly;
+    }
+    footer{
+        display: none;
+    }
+    #section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content img{
+        display: none;
+    }
+    .content p{
+        width: 100%;
+        font-size: small;
+    }
+}

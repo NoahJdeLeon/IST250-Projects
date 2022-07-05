@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PA2 Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="greeting">Hello, User!</h1>
+        <p id="oldP">This page is about experimenting with javascript! Please enter your first name, and type in the box to change this text!
+             All hcnages will be made as soon as the submit button is hit.</p>
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname"><br>
+            <textarea id="newP" name="newP"></textarea>
+        </form>
+        <label for="colorchange">Change the color:</label>
+        <select id="colorchange" name="colorchange">
+            <option value="r">Red</option>
+            <option value="g">Green</option>
+            <option value="b">Blue</option>
+            <option value="w">White</option>
+        </select><br>
+        <button id="submit" onclick="submit()">Submit Changes</button>
+        <script src="script.js"></script>
+    </body>
+</html>
